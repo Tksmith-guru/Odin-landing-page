@@ -1,0 +1,56 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/* STYLING FOR HEADER */
+header {
+	background-color: #1f2937;
+	padding: 1em 13em;
+}
+
+/* STYLING FOR THE HEADER LOGO AND LINKS */
+.nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: baseline;
+}
+
+.nav ul {
+	display: flex;
+	list-style: none;
+	gap: 1.5em;
+}
+
+a {
+	font-size: 18px;
+	color: #E5E7EB;
+	text-decoration: none;
+}
+
+#logo {
+	font-size: 24px;
+	font-weight: 900;
+	color: #F9FAF8;
+}
+
+/* STYLING FOR THE CLASS SECONDARY */
+.content {
+	font-size: 18px;
+	color: #E5E7EB;
+	text-decoration: none;
+}
+
+/* STYLING FOR THE CLASS AWESOME */
+.awesome {
+	padding: 7em 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+}
+
+.awesome .left {
+	display: flex;
+	flex-direction: column;
+}
